@@ -123,10 +123,31 @@ h4 {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+.icon button {
+  justify-content: center;
+  width: 10%;
+  border: 0px;
+  background-color: #f3f3f3;
 }
 .icon i {
+  font-size: 20px;
+}
+.buttons {
   display: flex;
-  justify-content: center;
-  width: 7%;
+  width: 15%;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+.buttons button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 30px;
+}
+
+.buttons button:hover {
+  opacity: 0.7;
 }
