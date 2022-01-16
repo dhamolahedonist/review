@@ -30,14 +30,10 @@ const descriptionElement = document.getElementById('description');
 
 let index = 0;
 function updateUser() {
-    let review = reviews[index]
-    if (!review) {
-       index = 0;
-       review = reviews[index]
-    }
-    nameElement.innerHTML = review.name
-    occupationElement.innerHTML = review.occupation
-    descriptionElement.innerHTML = review.description
+    let data = reviews[index]
+    nameElement.innerHTML = data.name
+    occupationElement.innerHTML = data.occupation
+    descriptionElement.innerHTML = data.description
 }
 
 updateUser(index);
